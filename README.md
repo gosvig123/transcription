@@ -56,7 +56,7 @@ npm run dev
 
 # Notification and Error Handling Improvements
 
-In the current MVP version of our application, there are several opportunities to improve the user experience by enhancing the notification system and error handling mechanisms. Here are some suggested improvements:
+In the current MVP version of our application, there are several opportunities to improve the user experience by enhancing the notification system and error handling mechanisms. Here are some suggested improvements.
 
 1. **Job Status Notification**: To keep users informed about the progress of their transcription job, it would be useful to implement a notification system that provides updates on job status. This could include real-time notifications or periodic updates.
 

@@ -13,8 +13,7 @@ let urlPromise: Promise<string>
 function getCallbackUrl() {
   if (!urlPromise) {
     urlPromise = localtunnel({ port: 8080 }).then(tunnel => {
-      const url = tunnel.url;
-      return url;
+      return tunnel.url;
     });
   }
   return urlPromise;
